@@ -30,4 +30,5 @@ public class AnimalCreateDTO {
     @NotBlank(message = "A leírás kötelező")
     private String description;
     private String imageUrl;
+    private Integer age;
 }

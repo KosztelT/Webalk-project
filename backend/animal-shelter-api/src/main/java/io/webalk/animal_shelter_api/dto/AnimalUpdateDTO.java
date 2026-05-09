@@ -21,4 +21,5 @@ public class AnimalUpdateDTO {
     private LocalDate birthDate;
     private String imageUrl;
     private Status status;
+    private Integer age;
 }
