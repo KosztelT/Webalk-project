@@ -29,6 +29,5 @@ public class AnimalCreateDTO {
     private Status status;
     @NotBlank(message = "A leírás kötelező")
     private String description;
-    private String imageUrl;
     private Integer age;
 }

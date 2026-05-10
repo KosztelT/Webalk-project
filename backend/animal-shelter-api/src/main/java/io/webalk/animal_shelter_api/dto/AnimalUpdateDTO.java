@@ -19,7 +19,6 @@ public class AnimalUpdateDTO {
     private String breed;
     private Gender gender;
     private LocalDate birthDate;
-    private String imageUrl;
     private Status status;
     private Integer age;
 }
