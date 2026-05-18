@@ -26,7 +26,7 @@ export default function AnimalCard({
       <div className="relative aspect-[4/3] bg-gray-100">
         {img ? (
           <img
-            src={`http://localhost:8080${img}`}
+            src={img}
             alt={animal.name}
             className="w-full h-full object-cover"
           />

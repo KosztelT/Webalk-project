@@ -17,7 +17,7 @@ export default function AnimalDetail({ animal, onClose }: Props) {
       {imgs.length > 0 && (
         <div className="relative rounded-2xl overflow-hidden aspect-video bg-gray-100 mb-5">
           <img
-            src={`http://localhost:8080${imgs[imgIndex]}`}
+            src={`${imgs[imgIndex]}`}
             alt={animal.name}
             className="w-full h-full object-cover"
           />
