@@ -110,6 +110,7 @@ public class AnimalService {
         if (dto.getBirthDate() != null) animal.setBirthDate(dto.getBirthDate());
         if (dto.getDescription() != null) animal.setDescription(dto.getDescription());
         if (dto.getAge() != null) animal.setAge(dto.getAge());
+        if (dto.getStatus() != null) animal.setStatus(dto.getStatus());
 
         if (files != null && files.length > 0) {
 
